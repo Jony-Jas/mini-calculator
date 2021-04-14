@@ -1,0 +1,57 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+body {
+    background: linear-gradient(
+45deg
+, #ddd6f3, #faaca8);
+}
+#header {
+    display: flex;
+    justify-content: center;
+}
+ul {
+    display: flex;
+    top: 80px;
+    position: relative;
+    padding-left: 0px;
+    justify-content: center;
+}
+li {
+    margin: 10px 10px;
+    border-style: dashed;
+    min-width: 90px;
+    list-style: none;
+    text-align: center;  
+    cursor: pointer;
+    user-select: none;
+}
+li:hover {
+    background:whitesmoke;
+}
+textarea {
+    background: white;
+    position: relative;
+    top: 50px;
+    width: 400px;
+}
+
+
+@media (max-width: 767px) {
+    li {
+        margin: 5px 5px;
+        border-style: dashed;
+        min-width: 60px;
+        list-style: none;
+        text-align: center;
+        cursor: pointer;
+        user-select: none;
+    }
+    textarea {
+        background: white;
+        position: relative;
+        top: 50px;
+        width: 250px;
+    }
+}
